@@ -1,0 +1,16 @@
+{
+  "name": "my-new-lib",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "my-new-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["my-new-lib/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}

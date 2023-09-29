@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@org/my-nest-lib": ["my-nest-lib/src/index.ts"]
+      "@org/my-nest-lib": ["lib/my-nest-lib/src/index.ts"],
+      "@org/my-new-lib": ["lib/my-new-lib/src/index.ts"],
+      "@org/my-new-lib/server": ["lib/my-new-lib/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
